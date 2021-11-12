@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --font_main:'poppins', sans serif;
+}
+.message-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.message{
+    font-family: var(--font_main);
+    font-weight: 450;
+    font-size: 2rem;
+    text-align: center;
+    color: orangered;
+    transition: all 0.4s;
+}
+.smiley{
+    width: 10rem;
+    transition: all 0.4s;
+}

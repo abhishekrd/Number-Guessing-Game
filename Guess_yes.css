@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color:rgba(255, 208, 0, 0.808);
+}
+
+:root{
+    --font_main:'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+font-family: var(--font_main);
+color: orangered;
+font-weight: 500;
+font-size: 2rem;
+text-align: center;
+transition: all 0.4s;
+}
+
+input{
+    padding:0.5rem;
+    font-family: var(--font_main);
+    font-weight: 450;
+    width: 17rem;
+    transition: all 0.4s;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    transition: all 0.4s;
+}
+
+.guess_btn{
+    background-color: rgb(255, 208, 0);
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    border:0.1rem solid rgb(255, 208, 0);
+    color: black;
+    font-family: var(--font_main);
+    font-weight: 450;
+    transition: all 0.4s;
+    margin-top: 1rem;
+}
+.guess_btn:hover{
+    background-color: rgba(255, 208, 0, 0.863);
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    border:0.1rem solid rgba(255, 208, 0, 0.863);
+    color: orangered;
+    font-family: var(--font_main);
+    font-weight: 450;
+    margin-top: 1rem;
+}
+.count-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    transition: all 0.4s;
+}
+#msg_one{
+    font-family: var(--font_main);
+    font-size: 1.2rem;
+    font-weight: 450;
+    transition: all 0.4s;
+}
+#msg_two{
+    font-family: var(--font_main);
+    font-size: 1.2rem;
+    font-weight: 450;
+    transition: all 0.4s;
+}
+
+.bigcontainer{
+    box-shadow: 0.5rem 0.8rem 1rem 0.3rem rgb(255, 145, 0);
+    padding: 2rem;
+    width: 40rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    background-color: white;
+    z-index: 1000;
+}
+.bigcontainer_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biggest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    font-family: var(--font_main);
+    text-align:center;
+}
+.footer-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 16.5rem;
+}
+i{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:952px){
+    .bigcontainer{
+        box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgb(255, 145, 0);
+        padding: 2rem;
+        width: 20rem;
+        border-radius: 1.5rem;
+        margin-top: 2rem;
+        background-color: white;
+        z-index: 1000;
+    }
+    .footer-div{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 12rem;
+    }
+}
